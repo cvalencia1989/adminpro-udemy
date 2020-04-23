@@ -13,6 +13,7 @@ import { Grarficas1Component } from './grarficas1/grarficas1.component';
 import { SharedModule } from '../shared/shared.module';
 import { IncrementadorComponent } from '../component/incrementador/incrementador.component';
 import { DonuthComponent } from '../component/donuth/donuth.component';
+import { AccountSettingComponent } from './account-setting/account-setting.component';
 
 // temporal
 
@@ -23,7 +24,8 @@ import { DonuthComponent } from '../component/donuth/donuth.component';
       Grarficas1Component,
       PagesComponent,
       IncrementadorComponent,
-      DonuthComponent
+      DonuthComponent,
+      AccountSettingComponent
     ],
     exports: [
         DashboardComponent,
