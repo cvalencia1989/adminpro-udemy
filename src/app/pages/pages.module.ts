@@ -14,6 +14,8 @@ import { SharedModule } from '../shared/shared.module';
 import { IncrementadorComponent } from '../component/incrementador/incrementador.component';
 import { DonuthComponent } from '../component/donuth/donuth.component';
 import { AccountSettingComponent } from './account-setting/account-setting.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 // temporal
 
@@ -25,7 +27,9 @@ import { AccountSettingComponent } from './account-setting/account-setting.compo
       PagesComponent,
       IncrementadorComponent,
       DonuthComponent,
-      AccountSettingComponent
+      AccountSettingComponent,
+      PromesasComponent,
+      RxjsComponent
     ],
     exports: [
         DashboardComponent,
