@@ -9,9 +9,9 @@ export class SettingsService {
  ajustes: Ajustes = {
   temaUrl : 'assets/css/colors/default.css',
   tema : 'default'
- }
+ };
 
-  constructor(@Inject(DOCUMENT) private _document: Document) {
+  constructor(@Inject(DOCUMENT) private _DOCUMENT: Document) {
 
     this.cargarAjustes();
   }
@@ -31,7 +31,7 @@ export class SettingsService {
  aplicarTema( tema: string ) {
 
     const url = `assets/css/colors/${ tema }.css`;
-    this._document.getElementById('temaAdmin').setAttribute('href', url );
+    this._DOCUMENT.getElementById('temaAdmin').setAttribute('href', url );
 
     this.ajustes.tema = tema;
     this.ajustes.temaUrl = url;
